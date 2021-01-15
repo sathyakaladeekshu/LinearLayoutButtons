@@ -13,6 +13,10 @@ public class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    fun showLogin(view: View) {
+        setContentView(R.layout.activity_login)
+    }
+
     fun showListActivity(view: View) {
         setContentView(R.layout.activity_static_list)
     }

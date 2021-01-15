@@ -5,12 +5,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showLogin"
+        android:text="Login" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show List"
+        android:text="List"
         android:onClick="showListActivity"/>
 
     <Button
@@ -18,5 +24,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="showButtonActivity"
-        android:text="Show Button" />
+        android:text="Button" />
 </LinearLayout>

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LinearLayoutExample">
-        <activity android:name=".ButtonActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MaiActivity" />
+        <activity android:name=".ButtonActivity" />
         <activity android:name=".StaticListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
