@@ -6,31 +6,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/labelName"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_gravity="center"
-        android:textColor="@color/design_default_color_primary"
-        android:text="@string/hello_this_is_used_to_check_the_text" />
+        android:text="Show List"
+        android:onClick="showListActivity"/>
 
     <Button
-        android:id="@+id/clickButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/button"
-        android:onClick="sendMessage"
-        />
-
-    <EditText
-        android:id="@+id/textName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/name"
-        android:layout_gravity="center"
-        android:hint="Enter the name" />
+        android:onClick="showButtonActivity"
+        android:text="Show Button" />
 </LinearLayout>

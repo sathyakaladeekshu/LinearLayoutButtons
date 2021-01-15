@@ -3,4 +3,19 @@
     <string name="hello_this_is_used_to_check_the_text">hello </string>
     <string name="button">Click here to change text</string>
     <string name="name">Name</string>
+    <string name="home">Home</string>
+    <string-array name="chocolates">
+        <item>dairy milk</item>
+        <item>fudge chocolate</item>
+        <item>mars</item>
+        <item>milk chocolte</item>
+        <item>dark chocolte</item>
+        <item>white chocolte</item>
+        <item>beglian chocolte</item>
+        <item>swiss chocolte</item>
+        <item>gems chocolte</item>
+        <item>lion chocolte</item>
+        <item>jelly chocolte</item>
+        <item>bubble gum</item>
+    </string-array>
 </resources>
