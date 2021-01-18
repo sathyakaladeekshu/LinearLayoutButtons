@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.221" />
 
     <EditText
-        android:id="@+id/passwsord"
+        android:id="@+id/nameText"
         android:layout_width="183dp"
         android:layout_height="41dp"
         android:autofillHints=""
@@ -64,6 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="@string/login"
+        android:onClick="login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/password"
         app:layout_constraintHorizontal_bias="0.423"

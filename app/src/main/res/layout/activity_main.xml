@@ -25,4 +25,25 @@
         android:layout_height="wrap_content"
         android:onClick="showButtonActivity"
         android:text="Button" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showDynamicActivity"
+        android:text="DynamicList" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAlert"
+        android:text="Alert" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showIntent"
+        android:text="Browser Implict Intent" />
 </LinearLayout>
